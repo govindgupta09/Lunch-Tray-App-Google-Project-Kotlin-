@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2021 The Android Open Source Project.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.govi.lunchtray"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="32" />
+24-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:25:5-72
+26-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:25:22-69
+27
+28    <application
+28-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:20:5-37:19
+29        android:allowBackup="true"
+29-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:21:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\185e2f0c619288e0f8d4f5786a951195\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:22:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:23:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:24:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:25:9-35
+36        android:theme="@style/Theme.LunchTray" >
+36-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:26:9-47
+37        <activity
+37-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:27:9-36:20
+38            android:name="com.govi.lunchtray.MainActivity"
+38-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:28:13-59
+39            android:exported="true"
+39-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:30:13-36
+40            android:label="@string/app_name" >
+40-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:29:13-45
+41            <intent-filter>
+41-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:31:13-35:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:17-69
+42-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:34:17-77
+44-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:34:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:28:9-37:20
+48            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+48-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:29:13-96
+49            android:exported="true"
+49-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:30:13-36
+50            android:multiprocess="true"
+50-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:31:13-40
+51            android:taskAffinity=""
+51-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:32:13-36
+52            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+52-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:33:13-78
+53            <intent-filter>
+53-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:17-69
+54-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:25-66
+55            </intent-filter>
+56        </activity>
+57
+58        <uses-library
+58-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\5437d7f960dab5aae06761b901b3820b\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+59            android:name="androidx.window.extensions"
+59-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\5437d7f960dab5aae06761b901b3820b\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+60            android:required="false" />
+60-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\5437d7f960dab5aae06761b901b3820b\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+61        <uses-library
+61-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\5437d7f960dab5aae06761b901b3820b\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+62            android:name="androidx.window.sidecar"
+62-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\5437d7f960dab5aae06761b901b3820b\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\5437d7f960dab5aae06761b901b3820b\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+64
+65        <activity
+65-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\6246636e5b4dcd0419276e751794f9c6\transformed\core-1.4.0\AndroidManifest.xml:27:9-34:20
+66            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+66-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\6246636e5b4dcd0419276e751794f9c6\transformed\core-1.4.0\AndroidManifest.xml:28:13-99
+67            android:exported="true"
+67-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\6246636e5b4dcd0419276e751794f9c6\transformed\core-1.4.0\AndroidManifest.xml:29:13-36
+68            android:theme="@android:style/Theme" >
+68-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\6246636e5b4dcd0419276e751794f9c6\transformed\core-1.4.0\AndroidManifest.xml:30:13-49
+69            <intent-filter>
+69-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:17-69
+70-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:25-66
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\6246636e5b4dcd0419276e751794f9c6\transformed\core-1.4.0\AndroidManifest.xml:35:9-42:20
+74            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+74-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\6246636e5b4dcd0419276e751794f9c6\transformed\core-1.4.0\AndroidManifest.xml:36:13-95
+75            android:exported="true"
+75-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\6246636e5b4dcd0419276e751794f9c6\transformed\core-1.4.0\AndroidManifest.xml:37:13-36
+76            android:theme="@android:style/Theme" >
+76-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\6246636e5b4dcd0419276e751794f9c6\transformed\core-1.4.0\AndroidManifest.xml:38:13-49
+77            <intent-filter>
+77-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:17-69
+78-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:25-66
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\6246636e5b4dcd0419276e751794f9c6\transformed\core-1.4.0\AndroidManifest.xml:43:9-50:20
+82            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+82-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\6246636e5b4dcd0419276e751794f9c6\transformed\core-1.4.0\AndroidManifest.xml:44:13-103
+83            android:exported="true"
+83-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\6246636e5b4dcd0419276e751794f9c6\transformed\core-1.4.0\AndroidManifest.xml:45:13-36
+84            android:theme="@android:style/Theme.Dialog" >
+84-->[androidx.test:core:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\6246636e5b4dcd0419276e751794f9c6\transformed\core-1.4.0\AndroidManifest.xml:46:13-56
+85            <intent-filter>
+85-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:17-69
+86-->C:\Users\DELL\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:25-66
+87            </intent-filter>
+88        </activity>
+89
+90        <provider
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\fe304109ea3e8442a607f09201bb314f\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+91            android:name="androidx.startup.InitializationProvider"
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\fe304109ea3e8442a607f09201bb314f\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+92            android:authorities="com.govi.lunchtray.androidx-startup"
+92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\fe304109ea3e8442a607f09201bb314f\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+93            android:exported="false" >
+93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\fe304109ea3e8442a607f09201bb314f\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+94            <meta-data
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\fe304109ea3e8442a607f09201bb314f\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\fe304109ea3e8442a607f09201bb314f\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+96                android:value="androidx.startup" />
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\fe304109ea3e8442a607f09201bb314f\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+97            <meta-data
+97-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\08495faad6319bca2a5cbf06e944b05b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+98-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\08495faad6319bca2a5cbf06e944b05b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+99                android:value="androidx.startup" />
+99-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\08495faad6319bca2a5cbf06e944b05b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+100        </provider>
+101    </application>
+102
+103</manifest>
